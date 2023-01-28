@@ -9,12 +9,12 @@ const database = {
         const parseCommand = command.match(regexp);
         const [,tableName, columns] = parseCommand;
     
-        let tables =  {"colmuns": {}, "data": []};
+        let tables =  {"columns": {}, "data": []};
         for (let column of columns) {
             const splitColumn = column.split(" ");
             const [nameColumn, typeColumn] = splitColumn;
         
-            tables.colmuns[nameColumn] = typeColumn
+            tables.columns[nameColumn] = typeColumn
         }
 
         this.tables[tableName]= tables;
