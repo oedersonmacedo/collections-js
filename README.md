@@ -23,3 +23,15 @@
       - concat: Returns a new array resulting from the concatenation of one or more arrays
       - slice: Returns parts of a given array according to start and end position
       - join: Converts the array to a String, joining elements based on a separator
+ - #### Map
+   - A Map is an object which stores a set the keys and values which that can be of any data type
+   - size: Returns the number of elements
+   - set: Adds a key and value pair
+   - forEach: Iterates over the map
+   - has: Returns true if the key exists
+   - get: Returns the value of a given key
+   - delete: Removes a key and value pair
+   - clear: Removes all elements
+   - What is tha difference for a object?
+     - One the main differences is the behavior between the key. The object only works with String or Symbol, while the Map works with all types of keys.
+     - Another difference when an object is created it has inheritances, for example, toString and valueOf, and to create without these inheritances, it's necessary to use Object.create(null), when a null value is passed, it doesn't create the inherited properties. Already in the Map doesn't have them.
