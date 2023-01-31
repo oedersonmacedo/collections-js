@@ -35,3 +35,12 @@
    - What is tha difference for a object?
      - One the main differences is the behavior between the key. The object only works with String or Symbol, while the Map works with all types of keys.
      - Another difference when an object is created it has inheritances, for example, toString and valueOf, and to create without these inheritances, it's necessary to use Object.create(null), when a null value is passed, it doesn't create the inherited properties. Already in the Map doesn't have them.
+     - #### WeakMap
+       - WeakMap is a object, similar at Map, which allows only keys the type of Object and the refference weak, being volatile and not iterable
+       - Without the reference to the key it's not possible to access the value
+       - set: Adds a key and value pair
+       - has: Returns true if the key exists
+       - get: Returns the value of a given key
+       - delete: Removes a key and value pair
+       - What is a WeakMap used for?
+         - The main intention is to implement something with a weak reference, so as not to have a memory consumption problem if necessary to delete its reference in memory. Not generating a bottleneck on its scope.
