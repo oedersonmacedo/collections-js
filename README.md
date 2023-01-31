@@ -15,9 +15,11 @@
       - sort: Sort elements according to the sorting function
       - reverse: Reverses the order of elements
       - fill: Fills the elements according to the start and end position 
-      - 
-   
-   
-   
-   
-   
+   - #### Accessor API
+      - Accessor methods when invoked return specific information about the array
+      - indexOf: Returns the position of the first element found
+      - lastIndexOf: Returns the position of the last element found
+      - includes: Returns true if the element exists
+      - concat: Returns a new array resulting from the concatenation of one or more arrays
+      - slice: Returns parts of a given array according to start and end position
+      - join: Converts the array to a String, joining elements based on a separator
