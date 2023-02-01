@@ -44,4 +44,14 @@
      - delete: Removes a key and value pair
      - What is a WeakMap used for?
        - The main intention is to implement something with a weak reference, so as not to have a memory consumption problem if necessary to delete its reference in memory. Not generating a bottleneck on its scope.
-   - 
+ - #### Set
+   - Set is an object that stores single elements, which can be of any data type
+   - size: Returns the number of elements
+   - add: Adds an element
+   - forEach: Iterates over the set
+   - has: Returns true if the element exists
+   - delete: Remove an element
+   - clear: Removes all elements
+   - What's the difference for an Array?
+     - Does not allow duplication of value.
+   
