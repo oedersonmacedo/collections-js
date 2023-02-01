@@ -54,4 +54,10 @@
    - clear: Removes all elements
    - What's the difference for an Array?
      - Does not allow duplication of value.
-   
+   - #### WeakSet
+     - WeakSet is an object, similar with the Set, which allows only keys of the type of Object and refference weak, being volatile and not iterable
+     - add: Adds an element
+     - has: Returns true if the element exists
+     - delete: Remove an element
+     - What is a WeakSet for?
+       - The main intention is to implement something with a weak reference, so as not to have a memory consumption problem if necessary to delete its reference in memory. Not generating a bottleneck on its scope
