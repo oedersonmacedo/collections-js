@@ -61,3 +61,7 @@
      - delete: Remove an element
      - What is a WeakSet for?
        - The main intention is to implement something with a weak reference, so as not to have a memory consumption problem if necessary to delete its reference in memory. Not generating a bottleneck on its scope
+   - #### Iterables and Iterators
+     - They are conventions implemented by Arrays, Maps, Sets and Strings that make them iterable through an iteration protocol
+     - In addition to Array, it's possible to use the iteration protocol of Map, Set and String objects
+     - Every Iterable has a Symbol.iterator key property that defines the iteration protocol for the object
